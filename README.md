@@ -36,7 +36,6 @@ virusTotal integration and automation.
 - Install and register endpoint agents
 
 ### 4.2 Log Collection
-Explain what logs/data are being collected.
 - Malware
 - File changes
 - Registry changes
