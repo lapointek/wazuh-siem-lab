@@ -26,7 +26,7 @@ virusTotal integration and automation.
 | Virtualization | KVM/QEMU         |
 | Network        | Host-only        |
 
-![lab diagram](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/lab-diagram?raw=true)
+![lab diagram](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/lab-diagram.png)
 
 ## 4. Installation & Configuration
 ### 4.1 Wazuh Server
@@ -52,7 +52,7 @@ Installed packages using Winget
 **Result:**
 Wazuh File Integrity Monitoring (FIM) showing registry changes
 
-![registry logs](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/registry-logs?raw=true)
+![registry logs](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/registry-logs.png)
 
 ## 6. Incident Response
 
