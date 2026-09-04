@@ -1,11 +1,13 @@
-# Wazuh SIEM Lab
+# 🛡️ Wazuh SIEM Lab
 
-## 1. Overview
+## 📖 Overview
+
 This project demonstrates the deployment and configuration using
 the open-source security tool Wazuh SIEM platform,
 virusTotal integration and automation.
 
-## 2. Objectives
+## 🎯 Objectives
+
 - Deploy Wazuh: Manager & Dashboard
 - Set Up Endpoints: Windows 11, Fedora
 - Install Wazuh Server: Kali Linux
@@ -16,33 +18,38 @@ virusTotal integration and automation.
 - Integrate VirusTotal: Malware analysis
 - Automate Response: Delete detected malware
 
-## 3. Architecture
-| Component      | Details          |
-|----------------|------------------|
-| SIEM           | Wazuh            |
-| Agent          | Windows 11       |
-| Agent          | Fedora Linux     |
-| Server         | Kali Linux       |
-| Virtualization | KVM/QEMU         |
-| Network        | Host-only        |
+## 🏗️ Lab Architecture
+
+| Component      | Details      |
+| -------------- | ------------ |
+| SIEM           | Wazuh        |
+| Agent          | Windows 11   |
+| Agent          | Fedora Linux |
+| Server         | Kali Linux   |
+| Virtualization | KVM/QEMU     |
+| Network        | Host-only    |
 
 ![lab diagram](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/lab-diagram.png)
 
-## 4. Installation & Configuration
+## ⚙️ Installation & Configuration
+
 ### 4.1 Wazuh Server
+
 - Deploy Wazuh in a virtualized environment using KVM/Qemu
 - Create a username and password when prompted
 - Access Wazuh dashboard
 - Install and register endpoint agents
 
 ### 4.2 Log Collection
+
 - Malware
 - File changes
 - Registry changes
 
-## 5. Detection Testing
+## 🚨 Detection Testing
 
 ### Test 1 — Registry Changes
+
 **Objective:** Detect registry changes
 
 **Action:**
@@ -53,7 +60,7 @@ Wazuh File Integrity Monitoring (FIM) showing registry changes
 
 ![registry logs](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/registry-logs.png)
 
-## 6. Incident Response
+## 🕵️ Incident Response
 
 1. Identify affected endpoint
 2. Investigate the activity
@@ -62,4 +69,4 @@ Wazuh File Integrity Monitoring (FIM) showing registry changes
 5. Recover
 6. Document findings
 
-## 7. Conclusion
+## 🏁 Conclusion
