@@ -66,7 +66,7 @@ Wazuh File Integrity Monitoring (FIM) displayed registry changes
 
 **Action:**
 - Integrate VirusTotal into Wazuh
-- Installed eicar malware into /tmp/malware directory
+- Installed eicar malware into /tmp/malware/ directory
 
 **Result:**
 Wazuh threat hunting monitoring displayed alert for eicar file
