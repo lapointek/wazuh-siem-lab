@@ -56,9 +56,22 @@ virusTotal integration and automation.
 Installed packages using Winget
 
 **Result:**
-Wazuh File Integrity Monitoring (FIM) showing registry changes
+Wazuh File Integrity Monitoring (FIM) displayed registry changes
 
 ![registry logs](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/registry-logs.png)
+
+### Test 2 — Malware Detection
+
+**Objective:** Detect Malware
+
+**Action:**
+- Integrate VirusTotal into Wazuh
+- Installed eicar malware into /tmp/malware directory
+
+**Result:**
+Wazuh threat hunting monitoring displayed alert for eicar file
+
+![threat logs](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/threat-logs.png)
 
 ## 🕵️ Incident Response
 
