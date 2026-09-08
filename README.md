@@ -40,11 +40,12 @@ virusTotal integration and automation.
 - Access Wazuh dashboard
 - Install and register endpoint agents
 
-### 4.2 Log Collection
+### 4.2 VirusTotal Integration
 
-- Malware
-- File changes
-- Registry changes
+- Obtain VirusTotal API key and configure Wazuh manager
+- Define directory in ossec.conf
+- Enable realtime monitoring
+- Setup Wazuh server to monitor changes in Linux agent for malware
 
 ## 🚨 Detection Testing
 
@@ -56,7 +57,7 @@ virusTotal integration and automation.
 Installed packages using Winget
 
 **Result:**
-Wazuh File Integrity Monitoring (FIM) displayed registry changes
+Wazuh File Integrity Monitor (FIM) displayed registry changes
 
 ![registry logs](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/registry-logs.png)
 
@@ -65,15 +66,14 @@ Wazuh File Integrity Monitoring (FIM) displayed registry changes
 **Objective:** Detect Malware
 
 **Action:**
-- Integrate VirusTotal into Wazuh
-- Installed eicar malware into /tmp/malware/ directory
+- Configure Wazuh manager to use VirusTotal API key
+- Download eicar malware into /tmp/malware/ directory defined in the ossec.conf
 
 **Result:**
-Wazuh threat hunting monitoring displayed alert for eicar file
+- Wazuh threat hunting detected and displayed an alert for the EICAR malware sample using VirusTotal integration.
+- Wazuh threat hunting detected and analyzed a file that was identified as containing no malware using VirusTotal integration.
 
 ![threat logs](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/threat-logs.png)
-
-## 🕵️ Incident Response
 
 1. Identify affected endpoint
 2. Investigate the activity
@@ -83,3 +83,5 @@ Wazuh threat hunting monitoring displayed alert for eicar file
 6. Document findings
 
 ## 🏁 Conclusion
+
+
