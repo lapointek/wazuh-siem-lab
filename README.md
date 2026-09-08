@@ -45,9 +45,9 @@ virusTotal integration and automation.
 - Obtain VirusTotal API key and configure Wazuh manager
 - Define directory in ossec.conf
 - Enable realtime monitoring
-- Setup Wazuh server to monitor changes in Linux agent for malware
+- Setup Wazuh server to monitor changes in the Linux agent for malware
 
-## 🚨 Detection Testing
+## 🧪 Detection Testing
 
 ### Test 1 — Registry Changes
 
@@ -75,13 +75,17 @@ Wazuh File Integrity Monitor (FIM) displayed registry changes
 
 ![threat logs](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/threat-logs.png)
 
-1. Identify affected endpoint
-2. Investigate the activity
-3. Contain the endpoint
-4. Remove the threat
-5. Recover
-6. Document findings
+## 🚨 Detection Testing
+ Incident Response
+- Detection - SIEM alert triggered by activity
+- Investigation - Review relevant logs to determine the source
+- Containment - Isolate affected host from network and quarantine/remove identified malware
+- Remediation - Restore system to trusted state, and reset compromised credentials
+- Document findings - Record key findings, affected systems, indicators of compromise
+- Lessons learned - Identify gaps in detection and determine improvments to prevent similar incidents
 
 ## 🏁 Conclusion
+
+
 
 
