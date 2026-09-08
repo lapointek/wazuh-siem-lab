@@ -75,8 +75,7 @@ Wazuh File Integrity Monitor (FIM) displayed registry changes
 
 ![threat logs](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/threat-logs.png)
 
-## 🚨 Detection Testing
- Incident Response
+## 🚨 Incident Response
 - Detection - SIEM alert triggered by activity
 - Investigation - Review relevant logs to determine the source
 - Containment - Isolate affected host from network and quarantine/remove identified malware
