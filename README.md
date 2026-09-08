@@ -87,3 +87,8 @@ Wazuh File Integrity Monitor (FIM) displayed registry changes
 This project demonstrated the development of a SIEM security monitoring and response environment using Wazuh.
 It included the creation and deployment of security agents, log collection and analysis, VirusTotal integration, automated malware removal.
 Overall, the project provided hands-on experience with SIEM administration, detection engineering, threat intelligence, security automation, and incident response.
+
+## 📚 References
+[SIEM Setup - Wazuh](https://www.youtube.com/watch?v=bltbJ2TUQWU)
+
+[VirusTotal Integration](https://www.youtube.com/watch?v=YWCpXdqj1wU)
