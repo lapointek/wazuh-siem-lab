@@ -80,11 +80,12 @@ Wazuh File Integrity Monitor (FIM) displayed registry changes
 **Objective:** Remove Malware
 
 **Action:**
-- Configure endpoint environment and create a threat removal script
-- Configure Wazuh server to allow for the detection and automatic removal of malware
+- Configure the endpoint environment and develop a remove-threat.sh removal script
+- Configure Wazuh for malware detection and automated threat removal
+- Download EICAR malware sample to test detection and automated removal
 
 **Result:**
-- Wazuh threat hunting detected and automatically removed threat
+- Wazuh threat hunting detected and automatically removed malware
 
 ![remove threat](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/remove-threat.png)
 
