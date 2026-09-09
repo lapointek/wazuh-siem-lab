@@ -75,6 +75,19 @@ Wazuh File Integrity Monitor (FIM) displayed registry changes
 
 ![threat logs](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/threat-logs.png)
 
+### Test 3 — Threat Removal
+
+**Objective:** Remove Malware
+
+**Action:**
+- Configure endpoint environment and create a threat removal script
+- Configure Wazuh server to allow for the detection and automatic removal of malware
+
+**Result:**
+- Wazuh threat hunting detected and automatically removed threat
+
+![remove threat](https://github.com/lapointek/wazuh-siem-lab/blob/main/screenshots/remove-threat.png)
+
 ## 🚨 Incident Response
 - Detection - SIEM alert triggered by activity
 - Investigation - Review relevant logs to determine the source
@@ -92,3 +105,5 @@ Overall, the project provided hands-on experience with SIEM administration, dete
 [SIEM Setup - Wazuh](https://www.youtube.com/watch?v=bltbJ2TUQWU)
 
 [VirusTotal Integration](https://www.youtube.com/watch?v=YWCpXdqj1wU)
+
+[Detect & Remove Malware](https://documentation.wazuh.com/current/proof-of-concept-guide/detect-remove-malware-virustotal.html)
